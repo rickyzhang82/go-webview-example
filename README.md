@@ -31,3 +31,11 @@ Webview's benefits:
 * smaller binary (<20 MB on Mac vs. Electron's 285 MB)
 * less memory usage (<10 MB on startup, vs. Electron's 150 MB)
 * more sane and stable ecosystem (Go vs. npm/yarn)
+
+## How?
+
+To build it in Fedora, add dependencies:
+
+```
+sudo dnf install webkit2gtk3-devel
+```
